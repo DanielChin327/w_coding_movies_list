@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Search</h1>
+        <!-- Search Bar -->
+        <input type="text" id="search-bar" placeholder="Search by title or cast..." />
+
+        <!-- Genre Filters -->
+        <div class="filters">
+            <h3>Genres:</h3>
+            <div id="genres-filter">
+                <!-- Genre radio buttons will be generated dynamically -->
+            </div>
+
+            <!-- Year Filters -->
+            <h3>Years:</h3>
+            <div id="years-filter">
+              <!-- Year radio buttons will be generated dynamically -->
+          </div>
+        </div>
+
+        <!-- Search Button -->
+        <button id="search-button">Search</button>
+
+        <!-- Movies Display Area -->
+        <div id="movies-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
